@@ -4,8 +4,10 @@ import java.util.Scanner;
 public class j2 {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        int n = 6;
+
+        int n = 4;
         int[][] nums = new int[n][n];
+
         for (int i = 0; i < n; i++){
             for (int j = 0; j < n; j++){
                 nums[i][j] = scan.nextInt();
@@ -23,6 +25,7 @@ public class j2 {
             }
             rows[i] = sum;
         }
+
         for (int i = 0; i < n; i++){
             int sum = 0;
             for (int j = 0; j < n; j++){
@@ -46,6 +49,7 @@ public class j2 {
                 System.out.println("magic");
             }
         }
+
     scan.close();
     }    
 }
