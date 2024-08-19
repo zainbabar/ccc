@@ -24,4 +24,5 @@ int main(){
   else{
     cout<<"answer"<<endl;
   }
+  return 0;
 }
